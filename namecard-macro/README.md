@@ -22,13 +22,13 @@ csv 파일을 구하셨다면, macro.py와 같은 폴더에 넣어주세요.
 1. 스크립트의 가장 밑에 있는 ```names = getNames('OCs.csv')``` 에서 'OCs.csv'를 참가자 정보가 있는 파일의 이름으로 바꿔주십시오.
 2. 마지막 줄의 ```worker(blahblah)```도 켜놓은 포토샵 창의 이름으로 바꿔주십시오. 
 3. 파일의 위 쪽에 있는 ATTR_NUM을 바꿔주십시오. ATTR_NUM은 이름 이외에, 명찰에 들어가는 정보의 숫자를 말합니다. 가령, <br>
-image1: example namecard
+![img1](/namecard-macro/png/NameCard.png)
 <br> 위와 같은 명찰이라면 ATTR_NUM은 2입니다. 이 ATTR_NUM은 csv 파일에 있는 (다른 정보)의 수와 일치해야 합니다. 
 
 ### 스크립트 실행: 좌표 맞추기
 위의 모든 과정을 마쳤다면, 매크로가 돌아갈 수 있게 좌표를 맞춰야합니다. <br>
-```macro.py``` 파일 위쪽에 있는 숫자들을 바꾸면 됩니다. 각각의 변수는 아래의 사진과 같은 의미를 갖습니다. <br>
-(image2: template)<br>
+```macro.py``` 파일 위쪽에 있는 숫자들을 바꾸면 됩니다. 각각의 변수는 아래의 사진과 같은 의미를 갖습니다.
+![img1](/namecard-macro/png/ManyStuff.png) <br>
 제가 추천하는 추천하는 변수를 맞추는 순서는 아래와 같습니다. 
 1. 마지막 줄의 worker() 함수를 주석처리하고, 대신 ```unitCheck('Photoshop Name')```을 써주십시오. 
 2. HOR_NUM=1, VER_NUM=1로 설정하고, START_COOR를 맞추십시오. 
